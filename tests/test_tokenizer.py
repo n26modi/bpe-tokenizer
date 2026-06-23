@@ -2,7 +2,7 @@ import pytest
 import tiktoken
 import os
 
-from minbpe import BasicTokenizer, RegexTokenizer, GPT4Tokenizer
+from bpe import BasicTokenizer, RegexTokenizer, GPT4Tokenizer
 
 # -----------------------------------------------------------------------------
 # common test data
